@@ -1,0 +1,8 @@
+[Unit]
+Description=FICHE-SERVER
+
+[Service]
+ExecStart=/usr/local/bin/fiche -S -d tb.envs.net -o /srv/fiche/up -l /var/log/fiche.log
+
+[Install]
+WantedBy=multi-user.target
