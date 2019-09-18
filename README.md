@@ -124,7 +124,7 @@ To use fiche you have to have netcat installed. You probably already have it - t
     ```
     make
     ```
-    
+
 3. Install:
 
     ```
