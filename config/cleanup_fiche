@@ -1,0 +1,5 @@
+# /etc/cron.d/cleanup_fiche
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+10 0 * * *  root  find /srv/fiche/up/ -type d -mtime +30 -exec rm -rf {} \; >/dev/null 2>&1
