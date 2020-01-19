@@ -10,39 +10,46 @@
     <div class="clear">
 
       <div id="main">
-<div class="block_head">
-<pre>
+<div class="block">
 <h1><em>envs.net | TermBin</em></h1>
 <h3><em>Netcat-based command line pastebin.</em></h3>
-</pre>
+<br />
 </div>
 
-<pre>
 <h3>USAGE</h3>
+<pre>
 you can POST a text:
     <code>echo just testing! | nc tb.envs.net 9999</code>
 content of a file:
     <code>cat ~/some_file.txt | nc tb.envs.net 9999</code>
 or your terminal output:
     <code>ls -la | nc termbin.com 9999</code>
+</pre>
+<br />
 
 <h3>ACCEPTABLE USE POLICY</h3>
+<pre>
 please do not post any informations that
 may violate law (login/password lists, email lists, personal information).
 life span of single paste is one month. older pastes are deleted.
 
 tb.envs.net is NOT a platform for:
+</pre>
+<br />
 <ul>
-<li>child pornography</li>
-<li>malware, including “potentially unwanted applications”</li>
-<li>botnet command and control schemes involving this service</li>
-<li>anything even remotely related to crypto currencies</li>
-<li>hosting your backups</li>
-<li>spamming the service with CI build artifacts</li>
-<li>piracy</li>
-<li>alt-right shitposting</li>
+  <li>child pornography</li>
+  <li>malware, including “potentially unwanted applications”</li>
+  <li>botnet command and control schemes involving this service</li>
+  <li>anything even remotely related to crypto currencies</li>
+  <li>hosting your backups</li>
+  <li>spamming the service with CI build artifacts</li>
+  <li>piracy</li>
+  <li>alt-right shitposting</li>
 </ul>
+<br />
+
 <h3>REQUIREMENTS</h3>
+<pre>
 there is only one thing you need to use this service - netcat.
 netcat is available on most platforms, including Windows, Mac OS X and Linux.
 
@@ -50,16 +57,22 @@ if you run a server and like this site, clone it! centralization is bad.
 <small>Source here: <a href="https://github.com/envs-net/fiche" target="_blank">https://github.com/envs-net/fiche</a>.</small>
 you can also support it financially via liberapay.
 <a href="https://liberapay.com/creme/donate" target="_blank" style="border-bottom-color: transparent;"><img alt="Donate using Liberapay" src="https://img.shields.io/liberapay/receives/creme.svg?logo=liberapay"></a>
+</pre>
+<br />
 
 <h3>ALIAS</h3>
+<pre>
 to make your life easier, you can add alias to your .bash_aliases on Linux
 and <code>.bash_profile</code> on Mac OS X. just remember to reset your terminal session after that.
 <code>echo 'alias tb="nc tb.envs.net 9999"' >> .bash_aliases</code>
 
 now you can use:
 <code>echo less typing now! | tb</code>
+</pre>
+<br />
 
 <h3>ABUSE</h3>
+<pre>
 if you would like to request permanent deletion, please
 send an email to <a href="mailto:hostmaster@envs.net?subject=Abuse%20TB%20-%20envs.net" target="_blank">hostmaster&#64;envs.net</a>.
 
